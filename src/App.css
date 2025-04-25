@@ -1,0 +1,92 @@
+/* App.css */
+
+/* Style général */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Conteneur principal */
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+/* Carte produit */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.75rem;
+}
+
+.card-subtitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #e74c3c;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  color: #7f8c8d;
+  line-height: 1.6;
+}
+
+/* Message de bienvenue */
+.text-center {
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  margin-top: 1.5rem !important;
+}
+
+h3 {
+  color: #3498db;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* Animation pour l'image de bienvenue */
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/* Effet de dégradé pour le fond  */
+.container {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 576px) {
+  .card {
+    width: 100% !important;
+  }
+  
+  .container {
+    padding: 1rem;
+  }
+}
