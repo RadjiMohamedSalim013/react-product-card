@@ -1,7 +1,4 @@
-Parfait ! Voici ton **README complet et prêt à être copié dans `README.md`** pour ton repo :  
-👉 **https://github.com/RadjiMohamedSalim013/react-product-card.git**
 
----
 
 # react-product-card
 
